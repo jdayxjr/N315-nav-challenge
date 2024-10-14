@@ -235,3 +235,91 @@ button:hover {
   height: 100%;
   background-color: lightgrey;
 }
+
+.banner-header-flights {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/plane.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-header-flights .banner-header {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+.banner-header-flights .header-text-wrap {
+  text-align: center;
+}
+.banner-header-flights .header-text-wrap #flights-header-text {
+  color: white;
+  padding-top: 150px;
+}
+
+.flight-search {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative; /* For positioning suggestions */
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.suggestions {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  z-index: 10;
+  display: none; /* Hidden by default */
+}
+
+.suggestions div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions div:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #073b3a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #05605b;
+}
