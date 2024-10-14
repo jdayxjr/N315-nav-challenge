@@ -82,6 +82,60 @@ nav a {
   background-position: center;
   background-repeat: none;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent .search {
+  width: 40%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.552);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.mainContent .search p {
+  color: white;
+  font-size: 26px;
+  margin-top: 15px;
+}
+
+.popular {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular .boxes {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .box1, .popular .box2, .popular .box3 {
+  border: solid 1px black;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .box1 p, .popular .box2 p, .popular .box3 p {
+  position: absolute;
+  color: white;
+  margin-top: 10px;
+}
+.popular .box1 img, .popular .box2 img, .popular .box3 img {
+  width: 100%;
+  height: 50%;
+}
+.popular .box1 .button, .popular .box2 .button, .popular .box3 .button {
+  width: 150px;
+  margin-top: 80px;
+  border: solid black 1px;
+  padding: 10px 30px;
 }
 
 * {
