@@ -1,8 +1,8 @@
-.about-banner {
+.banner-header-flights {
   width: 100%;
   height: 300px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../assets/about-banner.jpg);
+    url(../assets/nature-quotes-landscape-1648265648.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,13 @@
     padding-top: 100px;
     text-align: center;
     color: white;
+  }
+  .header-text-wrap {
+    text-align: center;
+    #flights-header-text {
+      color: white;
+      padding-top: 150px;
+    }
   }
 }
 

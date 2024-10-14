@@ -236,18 +236,25 @@ button:hover {
   background-color: lightgrey;
 }
 
-.about-banner {
+.banner-header-flights {
   width: 100%;
   height: 300px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/about-banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/nature-quotes-landscape-1648265648.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-banner .banner-header {
+.banner-header-flights .banner-header {
   padding-top: 100px;
   text-align: center;
   color: white;
+}
+.banner-header-flights .header-text-wrap {
+  text-align: center;
+}
+.banner-header-flights .header-text-wrap #flights-header-text {
+  color: white;
+  padding-top: 150px;
 }
 
 .flight-search {
